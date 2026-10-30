@@ -1,0 +1,11 @@
+Rank,Feature,SHAP_Importance,Category
+1,OverTime_Yes,0.0532,Workload
+2,StockOptionLevel,0.0372,Equity / Compensation
+3,Age,0.0330,Demographics
+4,MonthlyIncome,0.0313,Compensation
+5,YearsWithCurrManager,0.0272,Tenure & Leadership
+6,TotalWorkingYears,0.0251,Experience
+7,YearsAtCompany,0.0238,Tenure
+8,JobSatisfaction,0.0219,Workplace Sentiment
+9,DistanceFromHome,0.0195,Commute
+10,EnvironmentSatisfaction,0.0178,Workplace Sentiment

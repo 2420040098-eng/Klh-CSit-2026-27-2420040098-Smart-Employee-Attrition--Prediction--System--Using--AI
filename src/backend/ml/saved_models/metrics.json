@@ -1,0 +1,154 @@
+{
+  "best_model": "Random Forest",
+  "models_evaluated": [
+    {
+      "name": "Logistic Regression",
+      "type": "Linear Classifier",
+      "accuracy": 0.7551,
+      "precision": 0.3563,
+      "recall": 0.6596,
+      "f1": 0.4627,
+      "roc_auc": 0.8035,
+      "confusion_matrix": {
+        "tn": 191,
+        "fp": 56,
+        "fn": 16,
+        "tp": 31
+      },
+      "params": {
+        "solver": "lbfgs",
+        "class_weight": "balanced",
+        "max_iter": 1000
+      },
+      "is_best": false
+    },
+    {
+      "name": "Decision Tree",
+      "type": "Tree Classifier",
+      "accuracy": 0.7721,
+      "precision": 0.3571,
+      "recall": 0.5319,
+      "f1": 0.4274,
+      "roc_auc": 0.6517,
+      "confusion_matrix": {
+        "tn": 202,
+        "fp": 45,
+        "fn": 22,
+        "tp": 25
+      },
+      "params": {
+        "criterion": "gini",
+        "max_depth": 5,
+        "class_weight": "balanced"
+      },
+      "is_best": false
+    },
+    {
+      "name": "Random Forest",
+      "type": "Ensemble Bagging",
+      "accuracy": 0.8265,
+      "precision": 0.4524,
+      "recall": 0.4043,
+      "f1": 0.427,
+      "roc_auc": 0.7855,
+      "confusion_matrix": {
+        "tn": 224,
+        "fp": 23,
+        "fn": 28,
+        "tp": 19
+      },
+      "params": {
+        "n_estimators": 160,
+        "max_depth": 8,
+        "class_weight": "balanced"
+      },
+      "is_best": true
+    },
+    {
+      "name": "Gradient Boosting",
+      "type": "Ensemble Boosting",
+      "accuracy": 0.8503,
+      "precision": 0.5789,
+      "recall": 0.234,
+      "f1": 0.3333,
+      "roc_auc": 0.8146,
+      "confusion_matrix": {
+        "tn": 239,
+        "fp": 8,
+        "fn": 36,
+        "tp": 11
+      },
+      "params": {
+        "n_estimators": 130,
+        "learning_rate": 0.08,
+        "max_depth": 4
+      },
+      "is_best": false
+    }
+  ],
+  "global_importance": [
+    {
+      "feature": "OverTime_Yes",
+      "importance": 0.0532
+    },
+    {
+      "feature": "StockOptionLevel",
+      "importance": 0.0372
+    },
+    {
+      "feature": "Age",
+      "importance": 0.033
+    },
+    {
+      "feature": "MonthlyIncome",
+      "importance": 0.0313
+    },
+    {
+      "feature": "YearsWithCurrManager",
+      "importance": 0.0272
+    },
+    {
+      "feature": "YearsAtCompany",
+      "importance": 0.0263
+    },
+    {
+      "feature": "JobLevel",
+      "importance": 0.0242
+    },
+    {
+      "feature": "TotalWorkingYears",
+      "importance": 0.0201
+    },
+    {
+      "feature": "EnvironmentSatisfaction",
+      "importance": 0.0198
+    },
+    {
+      "feature": "DistanceFromHome",
+      "importance": 0.0162
+    },
+    {
+      "feature": "NumCompaniesWorked",
+      "importance": 0.0159
+    },
+    {
+      "feature": "DailyRate",
+      "importance": 0.0145
+    },
+    {
+      "feature": "MaritalStatus_Single",
+      "importance": 0.0141
+    },
+    {
+      "feature": "JobSatisfaction",
+      "importance": 0.0139
+    },
+    {
+      "feature": "YearsInCurrentRole",
+      "importance": 0.0127
+    }
+  ],
+  "shap_base_value": 0.501,
+  "total_records": 1470,
+  "timestamp": "2026-10-29T03:49:03.432925"
+}

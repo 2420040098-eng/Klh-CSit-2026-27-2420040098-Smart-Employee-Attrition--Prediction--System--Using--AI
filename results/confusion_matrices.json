@@ -1,0 +1,35 @@
+{
+  "test_split_size": 294,
+  "test_negatives": 247,
+  "test_positives": 47,
+  "models": {
+    "Logistic Regression": {
+      "true_negative": 191,
+      "false_positive": 56,
+      "false_negative": 16,
+      "true_positive": 31,
+      "matrix": [[191, 56], [16, 31]]
+    },
+    "Decision Tree": {
+      "true_negative": 202,
+      "false_positive": 45,
+      "false_negative": 22,
+      "true_positive": 25,
+      "matrix": [[202, 45], [22, 25]]
+    },
+    "Random Forest (Selected)": {
+      "true_negative": 224,
+      "false_positive": 23,
+      "false_negative": 28,
+      "true_positive": 19,
+      "matrix": [[224, 23], [28, 19]]
+    },
+    "Gradient Boosting": {
+      "true_negative": 239,
+      "false_positive": 8,
+      "false_negative": 36,
+      "true_positive": 11,
+      "matrix": [[239, 8], [36, 11]]
+    }
+  }
+}

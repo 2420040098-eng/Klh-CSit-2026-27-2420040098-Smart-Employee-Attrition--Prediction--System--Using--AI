@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "feature": "OverTime_Yes", "importance": 0.0532, "category": "Workload" },
+  { "rank": 2, "feature": "StockOptionLevel", "importance": 0.0372, "category": "Equity / Compensation" },
+  { "rank": 3, "feature": "Age", "importance": 0.0330, "category": "Demographics" },
+  { "rank": 4, "feature": "MonthlyIncome", "importance": 0.0313, "category": "Compensation" },
+  { "rank": 5, "feature": "YearsWithCurrManager", "importance": 0.0272, "category": "Tenure & Leadership" },
+  { "rank": 6, "feature": "TotalWorkingYears", "importance": 0.0251, "category": "Experience" },
+  { "rank": 7, "feature": "YearsAtCompany", "importance": 0.0238, "category": "Tenure" },
+  { "rank": 8, "feature": "JobSatisfaction", "importance": 0.0219, "category": "Workplace Sentiment" },
+  { "rank": 9, "feature": "DistanceFromHome", "importance": 0.0195, "category": "Commute" },
+  { "rank": 10, "feature": "EnvironmentSatisfaction", "importance": 0.0178, "category": "Workplace Sentiment" }
+]
