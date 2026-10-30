@@ -27,14 +27,12 @@
 ├── doc/
 │   ├── alt ppt 1 review.pptx       <- Milestone review presentation deck 1
 │   ├── alt ppt 2.pptx              <- Comprehensive review presentation deck 2
+│   ├── EPAEA_Project_Abstract.pdf  <- Research abstract formatted for university submission
+│   ├── EPAEA_Project_Documentation.pdf <- Official 9-page university project documentation
+│   ├── EPAEA_Research_paper.pdf    <- Full academic research paper manuscript
 │   ├── Explainable_Predictive_Analytics_Employee_Attrition.pptx <- Capstone defense presentation
 │   ├── mini hackathon 1 alt.docx   <- Mini-Hackathon 1 design documentation
-│   ├── mini hackathon 2 alt.docx   <- Mini-Hackathon 2 prototype documentation
-│   ├── EPAEA_Project_Documentation.pdf <- Official 9-page university project documentation
-│   ├── Project_Documentation.md    <- Full markdown transcript of the 9-page project documentation
-│   ├── Presentation_Overview.md    <- Defense slides transcript (Objectives, Gaps, Innovation, etc.)
-│   ├── System_Architecture.md      <- 6-tier architectural breakdown & Mermaid diagrams
-│   └── README.md                   <- Guide to project documentation files
+│   └── mini hackathon 2 alt.docx   <- Mini-Hackathon 2 prototype documentation
 │
 ├── reports/
 │   ├── EPAEA_Project_Abstract.pdf  <- Research abstract formatted for university submission
